@@ -18,6 +18,6 @@ SELECT
 	 t.dimension_1
 	,t.correct_dimension_2 dimension_2
 	,sum(t.measure_1) measure_1
-	,sum(t.measure_2) measure_1
+	,sum(t.measure_2) measure_2
 FROM t 
 GROUP BY t.dimension_1, t.correct_dimension_2  
